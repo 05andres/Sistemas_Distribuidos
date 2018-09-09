@@ -1,0 +1,13 @@
+el programa client.py recibe una entrada de una operacion ,por ejemplo
+suma = a + b
+resta = a - b
+multipli = a * b
+division = a / b
+exponente = a E b
+raiz = a raiz b (donde a es el indice)
+logaritmica = a log b (donde b es la base de la operacion)
+nota: es importante colocar el espacio entre cada constante y la signo de operacion como se ven en los ejemplos explicativos.
+
+integrantes:
+Carlos Andres Lopez Giraldo
+Carlos Augusto Vivas
