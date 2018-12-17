@@ -7,11 +7,12 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind(('', 8927))
 s.listen(10)
 
-def sock(puer,cadena):
+def sock(ip):
+    cadena="OK"
 	s = socket.socket()
 	s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 	s.connect(('localhost',puer))
-	s.send(cadena)
+	s.send(cadenA)
 	recibido = s.recv(1024)
 	print "---------------------------------"
 	print "reaultado recibido del  servidor = " ,recibido
